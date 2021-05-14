@@ -1,0 +1,154 @@
+.containerCus {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #6b6b6b, #6cc26f);
+}
+
+.liveBgColorSetting {
+    background: linear-gradient(45deg, #6b6b6b, #6cc26f);
+    height: 1.4rem;
+    width: 2.5rem;
+}
+
+i {
+    color: "#ffffff";
+    cursor: pointer;
+    margin: 0 1rem;
+}
+
+.penSizeCon i,
+.bgColorSelectCon i,
+.eraserColorSelectCon i,
+.penColorSelectCon i,
+.settingCon i {
+    text-shadow: 2px 2px 6px #222121;
+}
+
+.penSizeCon i.active,
+.bgColorSelectCon i.active,
+.eraserColorSelectCon i.active,
+.penColorSelectCon i.active {
+    transform: scale(1.5);
+    text-decoration: underline;
+    border: 1px solid #fff;
+    padding: 0.1rem;
+}
+
+.penColorSelectCon i.fa-palette {
+    color: #000000;
+}
+
+.tools-section {
+    opacity: 0;
+    transition: 2s;
+    min-height: 5vh;
+}
+
+.footer {
+    transition: 2s;
+    opacity: 0;
+}
+
+.footer .copyTxtCon {
+    background: linear-gradient(30deg, #c0bebe, #2c2b2b);
+}
+
+.sketch-picker-com {
+    display: none;
+}
+
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+}
+
+.sketch-picker.active {
+    display: block;
+}
+
+#penColorSelectModel.active {
+    display: block;
+}
+
+.modalCus {
+    z-index: 20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modelBgOverlay.active,
+.settingModelmodelBgOverlay.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    height: -webkit-fill-available;
+    background: #0009;
+    z-index: 10;
+}
+
+.penSizeCon {
+    height: 2.5rem;
+    overflow: auto;
+    padding: 0.5rem 0;
+}
+
+.penSizeCon i.active {
+    color: #000000;
+}
+
+.settingCon i.zmdi-settings.active {
+    transform: rotate(45deg) scale(1.5);
+}
+
+.colorPickerHeading {
+    text-shadow: 2px 2px 6px #949292;
+}
+
+.fottorImg {
+    width: 20px;
+}
+
+.footerAnchor {
+    color: rgb(241, 13, 154);
+    font-weight: bold;
+}
+
+.footerAnchor:hover {
+    text-decoration: none;
+}
+
+.settingRememberfld {
+    display: none;
+}
+
+.settingRememberfld.active {
+    display: block;
+}
+
+.footerContentCon {
+    font-size: x-large;
+}
+
+.footerCenterWord {
+    font-size: xx-large;
+}
+
+@media only screen and (max-width: 490px) {
+    .penSizeCon span:nth-child(1) i {
+        margin-bottom: 0.5rem;
+    }
+    .penSizeCon span:nth-child(1) i {
+        margin-bottom: 0.5rem;
+    }
+    .footerContentCon {
+        font-size: large;
+    }
+    .footerCenterWord {
+        font-size: larger;
+    }
+}

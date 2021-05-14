@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    background: #ddd;
+    border-radius: 10px;
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #000070;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(125deg, #0da89b, #fff);
+    border-radius: 10px;
+}
+
+.fwCus-cursive {
+    font-family: cursive;
+}
+
+.lst-sty-non {
+    list-style: none;
+}
+
+.cur-p {
+    cursor: pointer;
+}
+
+.tt-c {
+    text-transform: capitalize;
+}
+
+.d-f_jc-c_ai-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-max-con {
+    width: max-content;
+}
+
+.bg-none {
+    background: none;
+}
+
+.border-none {
+    border: none;
+}
+
+.tx-c {
+    text-align: center;
+}
+
+.td-n {
+    text-decoration: none;
+}
